@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+	<link rel="stylesheet" href="new1.css">
+	<title>Survey Form</title>
+	
+</head>
+<body>
+	 
+		<form action="https://enw7u145b8im9.x.pipedream.net/" method="POST" id="survey-form">
+		
+		<div class="h1"></div><h1 >Survey Form</h1>
+		
+		<h5>NAME:</h5>
+		<label for="first_name">First Name:</label>
+		<input type="text"name="first_name" size="60" id="first-name" required>
+
+		<label for="last_name">Last Name:</label>
+		<input type="text" name="last_name" id="last-name" required> 
+		
+
+		<h5>ADDRESS:</h5>
+		<label for="street_address">Street:</label>
+		<input type="text" name="street_address" id="street" required>
+
+		<label for="city">City:</label>
+		<input type="text" name="city" id="city" required>
+
+		<label for="state">State:</label>
+		<select name="state" id="state" required>
+			<option value="">Select a state</option>
+			<option value="Andhra">Andhra Pradesh</option>
+			<option value="Arunachal">Arunachal Pradesh</option>
+			<option value="Assam">Assam</option>
+			<option value="Bihar">Bihar</option>
+			<option value="Chhattisgarh">Chhattisgarh</option>
+			<option value="Goa">Goa</option>
+			<option value="Gujarat">Gujarat</option>
+			<option value="Haryana">Haryana</option>
+			<option value="Himachal Pradesh">Himachal Pradesh</option>
+			<option value="Jammu and Kashmir">	Jammu and Kashmir</option>
+			<option value="Jharkhand">Jharkhand</option>
+			<option value="Karnataka">	Karnataka</option>
+			<option value="Kerala">Kerala</option> 
+			<option value="Madhya Pradesh">Madhya Pradesh</option>
+			<option value="Maharashtra">Maharashtra</option>
+			<option value="Manipur">Manipur</option>
+			<option value="Meghalaya">Meghalaya</option>
+			<option value="Mizoram">Mizoram</option>
+			<option value="Nagaland">Nagaland</option>
+			<option value="Odisha">	Odisha</option>
+			<option value="Punjab">Punjab</option>
+			<option value="Rajasthan">Rajasthan</option>
+			<option value="Sikkim">Sikkim</option>
+			<option value="Tamil Nadu">Tamil Nadu</option>
+			<option value="Telangana">Telangana</option>
+			<option value="Tripura">Tripura</option>
+			<option value="Uttar Pradesh">Uttar Pradesh</option>
+			<option value="Uttarakhand">Uttarakhand</option>
+			<option value="West Bengal">West Bengal</option>
+	
+			
+		</select>
+
+		<label for="pincode">Pin Code:</label>
+		<input type="text" name="pincode" id="pin-code" pattern="[0-9]{6}" required>
+		
+
+		<h5>CONTACT NUMBER:</h5>
+		<label for="contact_number"></label>
+		<input type="tel" name="contact_number" id="contact-number" pattern="[0-9]{10}" required>
+		
+		
+		<h3>RATING:</h4>
+
+		<h5>Quality of products received:</h5>
+		<div class="radio-toolbar">
+
+		<input type="radio" name="quality_of_products_received" id="excellent" value="excellent" required>
+		<label for="quality_of_products_received">Excellent</label>
+
+		<input type="radio" name="quality_of_products_received" id="good" value="good" required>
+		<label for="quality_of_products_received">good</label>
+
+		<input type="radio" name="quality_of_products_received" id="bad" value="bad" required>
+		<label for="quality_of_products_received">bad</label>
+		</div>
+
+
+		<h5>Delivery Rating:</h5>
+		
+		<div class="radio-toolbar">
+		<input type="radio" name="delivery_rating" id="excellent" value="excellent" required>
+		<label for="delivery_rating">Excellent</label>
+
+		<input type="radio" name="delivery_rating" id="good" value="good" required>
+		<label for="delivery_rating">good</label>
+
+		<input type="radio" name="delivery_rating" id="bad" value="bad" required>
+		<label for="delivery_rating">bad</label>
+	    </div>
+	
+		
+
+
+        <h5>Value for money Rating:</h5>
+		
+		<div class="radio-toolbar">
+		<input type="radio" name="value_for_money_rating" id="excellent" value="excellent" required>
+		<label for="value_for_money_rating">Excellent</label>
+
+		<input type="radio" name="value_for_money_rating" id="good" value="good" required>
+		<label for="value_for_money_rating">good</label>
+
+		<input type="radio" name="value_for_money_rating" id="bad" value="bad" required>
+		<label for="value_for_money_rating">bad</label>
+	    </div>
+		
+		
+		<button type="submit" >SUBMIT</button>
+
+	</form>
+
+	
+	
+</body>
+</html>
+
+
+		
